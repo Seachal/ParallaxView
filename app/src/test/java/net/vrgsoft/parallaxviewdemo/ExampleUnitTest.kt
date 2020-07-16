@@ -1,4 +1,4 @@
-package net.vrgsoft.parallaxview
+package net.vrgsoft.parallaxviewdemo
 
 import org.junit.Test
 

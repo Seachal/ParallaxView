@@ -1,4 +1,4 @@
-package net.vrgsoft.parallaxview
+package net.vrgsoft.parallaxviewdemo
 
 import android.os.Bundle
 import android.support.v4.app.Fragment

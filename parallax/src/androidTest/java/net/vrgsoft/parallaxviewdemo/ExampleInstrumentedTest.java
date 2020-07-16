@@ -1,4 +1,4 @@
-package net.vrgsoft.parallaxview;
+package net.vrgsoft.parallaxviewdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

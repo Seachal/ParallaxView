@@ -1,4 +1,4 @@
-package net.vrgsoft.parallaxview
+package net.vrgsoft.parallaxviewdemo
 
 import android.support.v7.widget.AppCompatImageView
 import android.support.v7.widget.RecyclerView

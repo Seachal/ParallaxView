@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-ParallaxView.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-ParallaxView.iml" group="ParallaxView" />
       <module fileurl="file://$PROJECT_DIR$/ParallaxView.iml" filepath="$PROJECT_DIR$/ParallaxView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ParallaxView-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ParallaxView-app.iml" group="ParallaxView/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parallax/ParallaxView-parallax.iml" filepath="$PROJECT_DIR$/.idea/modules/parallax/ParallaxView-parallax.iml" group="ParallaxView/parallax" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/parallax.iml" filepath="$PROJECT_DIR$/parallax.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parallax/parallax.iml" filepath="$PROJECT_DIR$/parallax/parallax.iml" />
       <module fileurl="file://$PROJECT_DIR$/parallax/parallax-parallax.iml" filepath="$PROJECT_DIR$/parallax/parallax-parallax.iml" />
     </modules>
   </component>
