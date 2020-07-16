@@ -11,12 +11,13 @@
         android:id="@+id/parallax"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:decelerateFactor="0.4"
         app:isInvertedHorizontalParallax="true"
         app:isInvertedVerticalParallax="true"
-        app:isNeedScale="false">
+        app:isNeedScale="false"
+        app:parallaxScale="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/ivImage"
@@ -31,10 +32,10 @@
         android:layout_width="300dp"
         android:layout_height="200dp"
         app:decelerateFactor="0.2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintBottom_toBottomOf="@id/parallax"
+        app:layout_constraintEnd_toEndOf="@id/parallax"
+        app:layout_constraintStart_toStartOf="@id/parallax"
+        app:layout_constraintTop_toTopOf="@id/parallax">
 
         <android.support.v7.widget.AppCompatImageView
             android:id="@+id/ivImage2"
@@ -43,15 +44,55 @@
             android:scaleType="centerCrop"
             tools:src="@drawable/sherlok_front" />
 
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:textSize="58dp"-->
-<!--            android:textColor="@android:color/white"-->
-<!--            android:text="Hello"-->
-<!--            />-->
+
 
 
     </net.vrgsoft.parallaxview.ParallaxView>
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="@id/parallax"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/parallax">-->
+
+<!--        <net.vrgsoft.parallaxview.ParallaxView-->
+<!--            android:id="@+id/parallax3"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:decelerateFactor="0.2"-->
+<!--            app:isInvertedHorizontalParallax="true"-->
+<!--            app:isInvertedVerticalParallax="true"-->
+<!--            app:isNeedScale="true"-->
+<!--            >-->
+
+<!--            <android.support.v7.widget.AppCompatImageView-->
+<!--                android:id="@+id/ivImage_3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/sherlok_back" />-->
+<!--        </net.vrgsoft.parallaxview.ParallaxView>-->
+
+<!--        <net.vrgsoft.parallaxview.ParallaxView-->
+<!--            android:id="@+id/parallax4"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:decelerateFactor="0.6"-->
+<!--            >-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Hello"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:textSize="58dp" />-->
+
+
+<!--        </net.vrgsoft.parallaxview.ParallaxView>-->
+
+<!--    </FrameLayout>-->
 
 </android.support.constraint.ConstraintLayout>

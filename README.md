@@ -41,13 +41,13 @@ dependencies {
 # Customization
 | Attribute | Description |
 | ------------- | ------------- |
-| app:isEnabledHorizontalParallax | Enables or disables horizontal parallax effect |
-| app:isEnabledVerticalParallax | Same as isEnabledHorizontalParallax but vertical |
-| app:isInvertedHorizontalParallax | If true direction of the parallax effect will be opposite to scroll direction |
-| app:isInvertedVerticalParallax | Same as isInvertedHorizontalParallax but vertical |
-| app:isNeedScale | Defines whether scale need to be applied |
-| app:decelerateFactor | Possibles values: from 0 to 1. The bigger the value the faster will be moving the parallax effect |
-| app:parallaxScale | Scale value applied to the whole ParallaxView. Default is 1.5. Do nothing if isNeedScale set to false |
+>| app:isEnabledHorizontalParallax | Enables or disables horizontal parallax effect |
+>| app:isEnabledVerticalParallax | Same as isEnabledHorizontalParallax but vertical |
+>| app:isInvertedHorizontalParallax | If true direction of the parallax effect will be opposite to scroll direction |
+>| app:isInvertedVerticalParallax | Same as isInvertedHorizontalParallax but vertical |
+>| app:isNeedScale | Defines whether scale need to be applied |
+>| app:decelerateFactor | Possibles values: from 0 to 1. The bigger the value the faster will be moving the parallax effect |
+>| app:parallaxScale | Scale value applied to the whole ParallaxView. Default is 1.5. Do nothing if isNeedScale set to false |
 
 You can also change this attributes in runtime through methods
 #### Contributing
